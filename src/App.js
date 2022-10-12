@@ -20,7 +20,7 @@ function App() {
   if(e.target.classList.contains("icon")){
    const newValue=e.target.dataset.label
    setValue(person[newValue])
-   setTitle(newValuegi)
+   setTitle(newValue)
   }
  }
  const getPerson=async()=>{
